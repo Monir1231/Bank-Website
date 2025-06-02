@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+body{
+    font-family: "Lexend", sans-serif;
+    background-color: #191919;
+}
+
+@layer components{
+    
+       
+   
+    .my-card{
+        @apply bg-[#262626] md:p-6 p-4 rounded-md hover:transition-all hover:cursor-pointer hover:scale-105 duration-200 my-3 ;
+    }
+}
+
+body{
+   width: 90%;
+   margin: auto;
+}
